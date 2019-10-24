@@ -1,0 +1,208 @@
+html {
+	scroll-behavior:smooth;
+	height: 100%;
+	width: 100%;
+}
+
+body {
+	font-family: 'Calibri';
+	width: 100%;
+	height:100%;
+}
+
+/*menu*/
+.navperso {
+	display: flex;
+	justify-content: space-around;
+	background-color: #FBC2D2;
+	list-style: none;
+	padding-left: 0px;
+	margin-bottom: 0rem;
+}
+
+.nav-link {
+	color: #484C7F;
+}
+
+.nav-link:hover {
+	color: #9B9ECD;
+}
+
+/*mes grands titres*/
+
+h1.myname {
+	font-size: 120px;
+	text-align: center;
+	color: #484C7F;
+}
+
+h2.mestitres {
+	font-size: 50px;
+	font-family: 'Open Sans', sans-serif;
+	font-family: 'Over the Rainbow', cursive;
+	text-align: center;
+	color: #484C7F;
+	padding:70px;
+}
+
+/*Première page*/
+
+div.firstpage {
+	background-image: url(images/photo_firstpage.png);
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding-bottom: 20%;
+	padding-top: 20%;
+	display: flex;
+	font-family: 'Open Sans', sans-serif;
+	font-family: 'Over the Rainbow', cursive;
+	justify-content: center;
+}
+
+/*Deuxième page: qui suis je*/
+.secondpage {
+	background-image: url(images/44.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	height:800px;
+}
+
+.txtimg {
+	display:grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	margin-left:10%;
+}
+
+/*ma photo*/
+.moi {
+  border-radius :50%;
+  border:3px solid #484C7F;
+  width: 70%;
+  padding:0px;
+  display: block;
+}
+
+.maphoto {
+}
+
+/* texte de Qui suis-je*/
+.quisuisje {
+	width: 500px;
+	display:block;
+	text-align: justify;
+	padding-top:15%;
+}
+
+
+/*Grille de mes formations*/
+div.accordion {
+	justify-content: center;
+	margin-left:auto;
+	margin-right:auto;
+	width:1200px;
+	box-shadow: 5px 5px 5px grey;
+}
+
+/*+ de formation*/
+.fas {
+	padding-right: 30px;
+}
+
+/*Troisième page :formations*/
+.thirdpage {
+	background-image: url(images/thirdpage2.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	height:700px;
+}
+
+div.card-header {
+	border-bottom: 2px solid #FFC7C7;
+	text-decoration: none;
+}
+
+div.card {
+	background-color: #FFE2E2;
+	border: 2px solid #FFC7C7;
+}
+
+div#collapseOne, #collapseTwo, #collapseThree, #collapseFour {
+	background-color: #F5F5F5;
+	color: #000;
+	font-size: 12px;
+}
+
+div#collapseOne-experience, #collapseTwo-experience, #collapseThree-experience, #collapseFour-experience {
+	background-color: #F5F5F5;
+	color: #000;
+	font-size: 12px;
+}
+
+button.btn-link {
+	color: #484C7F;
+}
+
+button.btn-link:hover {
+	color: #9B9ECD;
+	text-decoration: none;
+}
+
+span#year {
+	font-weight: bold;
+}
+
+/*Grille de mes expériences*/
+.accordion {
+	width:1000px;
+	justify-content: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+/*Quatrième page: experiences*/
+.fourpage {
+	background-image: url(images/55.jpg);
+	background-attachment: fixed;
+	background-size: cover;
+	height: 700px;
+}
+
+/*Cinquiète page : portfolio*/
+
+.portfo {
+}
+
+/*Sixième page: Loisirs*/
+.sixiemepage {
+	background-image: url(images/airplane.jpg);
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height:800px;
+}
+
+div.carousel-inner {
+	height: auto;
+}
+
+.bd-example {
+	position: relative;
+}
+
+#mon-portfolio {
+	position: absolute;
+    z-index: 99999;
+    width: 100%;
+}
+
+i[aria-expanded="true"]{
+  color: #42DCA3;
+}
+
+#contact {
+	background-color: #EEEFF1;
+	margin-bottom: 0px;
+}
